@@ -1,0 +1,13 @@
+# Build things
+bin
+
+# gradle things
+gradle
+gradlew
+gradlew.bat
+.gradle
+
+# eclipse things
+.settings
+.classpath
+.project
