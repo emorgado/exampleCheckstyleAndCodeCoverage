@@ -55,10 +55,9 @@ public class CalculatorTest {
 
         // test exception custom data
         thrown.expect( hasProperty( "errCode" ) ); // make sure getters n setters are defined.
-        thrown.expect( hasProperty( "errCode", is( 1 ) ) );
+        thrown.expect( hasProperty( "errCode", is( DivisionByZeroException.ERROR_CODE ) ) );
 
         this.calculator.divide( dividend, divisor );
 
     }
-
 }
